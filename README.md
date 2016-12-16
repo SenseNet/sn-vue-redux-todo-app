@@ -2,7 +2,6 @@
 
 [![Build status](https://img.shields.io/travis/SenseNet/sn-vue-redux-todo-app.svg?style=flat)](https://travis-ci.org/SenseNet/sn-vue-redux-todo-app)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b09d599538fa49e9bb1cb92df4042ada)](https://www.codacy.com/app/herflis33/sn-vue-redux-todo-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SenseNet/sn-react-redux-todo-app&amp;utm_campaign=Badge_Grade)
-[![License](https://img.shields.io/github/license/SenseNet/sn-vue-redux-todo-app.svg?style=flat)](https://github.com/SenseNet/sn-client-js/LICENSE.txt)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat)](http://commitizen.github.io/cz-cli/)
 

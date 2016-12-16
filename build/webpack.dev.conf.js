@@ -13,26 +13,6 @@ Object.keys(baseWebpackConfig.entry).forEach(function (name) {
 module.exports = merge(baseWebpackConfig, {
   module: {
     loaders: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap }),
-    preLoaders: [
-      {
-        test: /\.js$/,
-        include: path.resolve('test/filtering.js'),
-        loader: 'istanbul-instrumenter'
-      }
-    ],
-    plugins: [
-      new IstanbulPlugin({
-        test: /\.js$/,
-        include: [
-          path.resolve('test/filtering.js'),
-        ],
-        exclude: [
-          path.resolve('node_modules'),
-          path.resolve('test/filteringTests.js'),
-          /\.spec\.js$/,
-        ],
-      }),
-    ]
   },
   // eval-source-map is faster for development
   devtool: '#eval-source-map',
