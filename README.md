@@ -5,7 +5,7 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat)](http://commitizen.github.io/cz-cli/)
 
-This example is simple todo app built with Vue+Redux upon Sense/Net ECM which has been prepared to demonstrate how to use the new Sense/Net ECM related libraries [sn-client-js](https://github.com/SenseNet/sn-client-js)
+This example is simple todo app built with Vue+Redux upon sensenet ECM which has been prepared to demonstrate how to use the new sensenet ECM related libraries [sn-client-js](https://github.com/SenseNet/sn-client-js)
 and [sn-redux](https://github.com/SenseNet/sn-redux). 
 
 ## Quick start
@@ -19,7 +19,7 @@ $ npm run dev
 
 ## Settings
 
-To use this example you'll need a Sense/Net ECM portal. To connect the app with the portal set your site's url as the app's siteUrl
+To use this example you'll need a sensenet ECM portal. To connect the app with the portal set your site's url as the app's siteUrl
 
 ```
 import { SetSiteUrl } from 'sn-client-js';
@@ -38,13 +38,13 @@ portal and get or set data.
 
 For further information about CORS in Sense/Net ECM check [this](http://wiki.sensenet.com/Cross-origin_resource_sharing) article.
 
-The example app uses one of the built-in TaskList Content in the default Sense/Net ECM install (/workspaces/Project/budapestprojectworkspace/Tasks). If you removed this Content and its children tasks earlier
+The example app uses one of the built-in TaskList Content in the default sensenet ECM install (/workspaces/Project/budapestprojectworkspace/Tasks). If you removed this Content and its children tasks earlier
 or want to try with another TaskList change the value of the ```rootUrl``` variable in ```AddTodo.vue``` and ```App.vue``` to the chosen list's path.
 
 The example app demonstrates not only how to fetching data but also Content creation and delete. The app doesn't provide authentication because of it's simplicity so you have to make some permission changes
-in your Sense/Net ECM portal to let Visitor users adding and removing tasks from the chosen parent list.
-If you are not familiar with Sense/Net's permission system check the following wiki articles:
-* [Sense/Net ECM Permission System](http://wiki.sensenet.com/Permission_System)
+in your sensenet ECM portal to let Visitor users adding and removing tasks from the chosen parent list.
+If you are not familiar with sensenet ECM's permission system check the following wiki articles:
+* [sensenet ECM Permission System](http://wiki.sensenet.com/Permission_System)
 * [How to set permissions on a content in Sense/Net ECM](http://wiki.sensenet.com/How_to_set_permissions_on_a_content)
 
 ## Related documents
