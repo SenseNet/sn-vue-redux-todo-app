@@ -53,7 +53,7 @@
     "opn": "^5.1.0",
     "ora": "^1.1.0",
     "redux": "3.7.2",
-    "semantic-release": "^8.2.0",
+    "semantic-release": "^15.9.11",
     "semver": "^5.3.0",
     "shelljs": "^0.7.4",
     "sn-redux": "3.4.0",
